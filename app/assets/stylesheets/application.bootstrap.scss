@@ -1,2 +1,26 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+.TwiteroDestacado {
+    color: red;
+  }
+.botonRojo{
+    background-color: red;
+}
+.Tweets{
+  font-style: italic;
+  background-color: aquamarine;
+}
+.futer{
+  font-style: oblique;
+  font-size: small;
+  padding: 10px;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.bodymain{
+  flex: 1;
+}

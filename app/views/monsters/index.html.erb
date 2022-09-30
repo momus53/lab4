@@ -1,1 +1,11 @@
-<%# Update me %><%= @monsters.inspect %>
+<h1>Listado de monstruos</h1>
+    <% @monsters.each do |m| %>
+        <div>
+            <%= link_to m.name, m%>
+            <%= m.description %>
+            <%if m.tweet.count > 1 %>
+                <span class="TwiteroDestacado"> Twitero Destacado!</span>
+            <%end%> 
+            <br>
+        </div>
+    <% end %>
